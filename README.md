@@ -18,6 +18,10 @@ Open `index.html` in any browser, or use the hosted GitHub Pages version. Edit t
 
 Runs entirely in your browser. No accounts, no analytics, no network calls, no data stored. Close the tab and nothing remains.
 
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
+
 ## License
 
 MIT. Copyright 0xelitesystem 2026.
