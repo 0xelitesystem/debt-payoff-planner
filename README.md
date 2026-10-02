@@ -10,13 +10,30 @@ A single-file browser tool that compares the two common debt payoff methods, sno
 
 Enter each debt with its balance, APR, and minimum payment, set the extra amount you can put toward debt each month, and pick a method. The avalanche method attacks the highest interest rate first and pays the least total interest. The snowball method attacks the smallest balance first and clears individual debts fastest for momentum. The tool simulates month by month, rolling freed minimums into the next target, and reports the payoff timeline, total interest, payoff order, and the interest saved versus a minimums-only baseline.
 
-## How to use it
+## Use
 
 Open `index.html` in any browser, or use the hosted GitHub Pages version. Edit the example debts or add your own, set your extra monthly amount, and toggle between avalanche and snowball to compare. Everything updates live.
+
+## Why this exists
+
+Comparing snowball and avalanche usually means a spreadsheet or a calculator that asks for your numbers on someone else's server. This runs the month-by-month simulation in a single HTML file you can read end to end, with no tracking and no account, under the MIT license.
 
 ## Privacy
 
 Runs entirely in your browser. No accounts, no analytics, no network calls, no data stored. Close the tab and nothing remains.
+
+## Run locally
+
+```
+git clone https://github.com/0xelitesystem/debt-payoff-planner
+cd debt-payoff-planner
+```
+
+Open `index.html` in a browser. Or serve the folder with `python -m http.server` and visit http://localhost:8000.
+
+## Build
+
+No build step. The whole tool is one `index.html` file with inline CSS and JavaScript, and no dependencies.
 
 ## More
 
